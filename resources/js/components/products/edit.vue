@@ -122,7 +122,7 @@ export default {
                     //  finish the progress bar
                     this.$Progress.finish();
                 }).catch((error) => {
-                    //  failed the progress bar
+                    // close when failed the progress bar 
                     this.$Progress.fail();
                 });
         },
